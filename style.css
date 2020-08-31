@@ -327,12 +327,14 @@ nav ul li{
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    text-decoration: underline;
+    font-weight: 700;
 }
 .office-card p{
     padding: 1rem 1rem;
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Comfortaa', sans-serif;
 }
 .office-card i{
     margin-right: 5px;
@@ -416,6 +418,85 @@ nav ul li{
     border-radius: 0;
 }
 
+/* Studio Rentals */
+#rentals{
+    min-height: 100vh;
+    background: linear-gradient(rgba(187, 187, 187, 0.5), transparent);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.rentals-head{
+    background: linear-gradient(rgba(219, 219, 219, 0.5), transparent);
+    padding: 3rem;
+    margin-bottom: 7rem;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    text-align: center;
+}
+
+.rentals-head h2{
+    padding: 1rem 0rem;
+    text-decoration: underline;
+}
+.rentals-head h4{
+    padding: 1rem;
+}
+
+.studio-rentals{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+
+.about-rentals{
+    flex: 2 2 40rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem;
+    border: 1px solid #ec2329;
+}
+.about-rentals h4{
+    margin-bottom: 2rem;
+}
+.about-rentals p{
+    font-size: 1.5rem;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.rental-services{
+    flex: 1 1 20rem;
+    background-color: #ffffff;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 10px;
+    border: 1px solid #ec2329;
+}
+.rental-services h4{
+    margin-bottom: 2rem;
+}
+.rental-services li{
+    padding: 2rem 1rem;
+    margin-left: 1.2rem;
+    font-size: 1.5rem;
+    font-family: 'Comfortaa', sans-serif;
+    text-transform: uppercase;
+}
+.rental-services p{
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Comfortaa', sans-serif;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
 /* Footer */
 
 .footer-distributed{
@@ -440,6 +521,10 @@ nav ul li{
 
 .footer-distributed .footer-left{
 	width: 40%;
+}
+.footer-distributed .footer-left img{
+    max-height: 80px;
+    opacity: 0.9;
 }
 
 /* The company logo */
@@ -688,6 +773,6 @@ nav ul li{
     }
     
     .office-card iframe{
-        width: 90%;
+        width: 100%;
     }
 }
